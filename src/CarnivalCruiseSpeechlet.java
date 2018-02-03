@@ -1,5 +1,9 @@
 import com.amazon.speech.json.SpeechletRequestEnvelope;
 import com.amazon.speech.slu.Intent;
+import com.amazon.speech.speechlet.*;
+import com.amazon.speech.ui.OutputSpeech;
+import com.amazon.speech.ui.PlainTextOutputSpeech;
+import com.amazon.speech.ui.Reprompt;
 
 public class CarnivalCruiseSpeechlet implements SpeechletV2 {
 
