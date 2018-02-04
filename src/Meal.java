@@ -7,6 +7,8 @@ public class Meal {
 
     public Meal(String n, double p, String[] s)
     {
-
+        name = n;
+        price = p;
+        sides = s;
     }
 }

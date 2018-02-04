@@ -10,23 +10,37 @@ public class Menu {
         {
             // daytime menu
             case 1:
-                TreeMap<String, Meal> somethinglight = new TreeMap<String, Meal>();
-                somethinglight.put("garden salad", new Meal("Garden Salad", 8.99, new String[]{"Choice of Ranch, 1,000 Island, Balsamic Vinaigrette, Blue Cheese", "Fat Free Honey Mustard Dressing"}));
-                somethinglight.put("caesar salad", new Meal("Caesar Salad", 8.99, new String[]{"House Made Dressing and Shaved Parmesan Cheese"}));
-                menu.add(somethinglight);
+                TreeMap<String, Meal> salads = new TreeMap<String, Meal>();
+                salads.put("garden salad", new Meal("Garden Salad", 0.0, new String[]{"Choice of Ranch, 1,000 Island, Balsamic Vinaigrette, Blue Cheese", "Fat Free Honey Mustard Dressing"}));
+                salads.put("caesar salad", new Meal("Caesar Salad", 0.0, new String[]{"House Made Dressing and Shaved Parmesan Cheese"}));
+                menu.add(salads);
 
-                TreeMap<String, Meal> justwhatyouordered = new TreeMap<String, Meal>();
-                justwhatyouordered.put("tuna salad", new Meal("Tuna Salad", 12.99, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
-                justwhatyouordered.put("roast turkey", new Meal("Roast Turkey", 12.99, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
-                justwhatyouordered.put("ham and cheese", new Meal("Ham and Cheese", 12.99, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
-                justwhatyouordered.put("peanut butter and jelly", new Meal("Peanut Butter and Jelly", 12.99, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
-                justwhatyouordered.put("bacon, lettuce and tomato", new Meal("Bacon, Lettuce and Tomato", 12.99, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
-                justwhatyouordered.put("grilled american cheese", new Meal("Grilled American Cheese", 12.99, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
-                justwhatyouordered.put("grilled reuben", new Meal("Grilled Reuben", 12.99, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
-                menu.add(justwhatyouordered);
+                TreeMap<String, Meal> entrees = new TreeMap<String, Meal>();
+                entrees.put("tuna salad", new Meal("Tuna Salad", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
+                entrees.put("roast turkey", new Meal("Roast Turkey", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
+                entrees.put("ham and cheese", new Meal("Ham and Cheese", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
+                entrees.put("peanut butter and jelly", new Meal("Peanut Butter and Jelly", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
+                entrees.put("bacon, lettuce and tomato", new Meal("Bacon, Lettuce and Tomato", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
+                entrees.put("grilled american cheese", new Meal("Grilled American Cheese", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
+                entrees.put("grilled reuben", new Meal("Grilled Reuben", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
+                entrees.put("chicken tenders", new Meal("Chicken Tenders", 12.99, null));
+                entrees.put("totally awesome wings", new Meal("Totally Awesome Wings", 12.99, null));
+                entrees.put("spicy fried firecracker shrimp", new Meal("Spicy Fried Firecracker Shrimp", 12.99, null));
+                entrees.put("killer chicken quesadilla", new Meal("Killer Chicken Quesadilla", 12.99, null));
+                entrees.put("chicken tenders", new Meal("Chicken Tenders", 12.99, null));
+                entrees.put("chicken tenders", new Meal("Chicken Tenders", 12.99, null));
 
-                TreeMap<String, Meal> sweettooth = new TreeMap<String, Meal>();
-                sweettooth.put("new york cheesecake", new Meal("New York Cheesecake", 6.99, null));
+                menu.add(entrees);
+
+                TreeMap<String, Meal> deserts = new TreeMap<String, Meal>();
+                deserts.put("new york cheesecake", new Meal("New York Cheesecake", 0.0, null));
+                deserts.put("assorted cookies", new Meal("Assorted Cookies", 0.0, null));
+                deserts.put("chocolate cake", new Meal("Chocolate Cake", 0.0, null));
+                deserts.put("old fashioned banana split", new Meal("Old Fashioned Banana Split", 6.99, null));
+                menu.add(deserts);
+
+                TreeMap<String, Meal> drinks = new TreeMap<String, Meal>();
+                
 
                 break;
         }
