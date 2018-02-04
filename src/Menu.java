@@ -75,19 +75,29 @@ public class Menu {
                 beers = new TreeMap<>();
 
                 menu.put("beers", beers);
+
                 break;
 
             case 2:
                 salads = new TreeMap<>();
-                salads.put("greek salad", new Meal("Greek Salad", 0.0, null));
-                salads.put("chicken caesar salad", new Meal("Chicken Caesar Salad", 0.0, null));
+                salads.put("greek salad", new Meal("Greek Salad", 8.99, null));
+                salads.put("chicken caesar salad", new Meal("Chicken Caesar Salad", 8.99, null));
                 menu.put("salads", salads);
 
                 meals = new TreeMap<>();
-                meals.put("roast turkey wrap", new Meal("Roast Turkey Wrap", 0.0, null));
+                meals.put("totally awesome wings", new Meal("Totalle Awesome Wings", 12.99, null));
+                meals.put("chicken tenders", new Meal("Chicken Tenders", 12.99, null));
+                meals.put("spicy fried firecracker shrimp", new Meal("Spicy Fried Firecracker Shrimp", 12.99, null));
+                meals.put("portabella and veggie bun", new Meal("Portabella and Veggie Bun", 12.99, null));
+                meals.put("killer chicken quesadilla", new Meal("Killer Chicken Quesadilla", 12.99, null));
+                meals.put("grilled cheese, bacon and tomato sandwich", new Meal("Grilled Cheese, Bacon and Tomato Sandwich", 12.99, null));
+                meals.put("authentic philly cheesesteak", new Meal("Authentic Philly Cheesesteak", 12.99, null));
+                meals.put("roast turkey wrap", new Meal("Roast Turkey Wrap", 12.99, null));
+                meals.put("pan pizza", new Meal("Pan Pizza", 12.99, null));
+                meals.put("omelette and french fries", new Meal("Omelette and French Fries", 12.99, null));
                 menu.put("meals", meals);
 
-
+                break;
         }
     }
 }
