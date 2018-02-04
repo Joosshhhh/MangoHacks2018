@@ -42,14 +42,14 @@ public class Menu {
                 sides.put("sweet potato fries", new Meal("Sweet Potato Fries", 4.99, null));
                 menu.put("sides", sides);
 
-                deserts = new TreeMap<String, Meal>();
+                deserts = new TreeMap<>();
                 deserts.put("new york cheesecake", new Meal("New York Cheesecake", 0.0, null));
                 deserts.put("assorted cookies", new Meal("Assorted Cookies", 0.0, null));
                 deserts.put("chocolate cake", new Meal("Chocolate Cake", 0.0, null));
                 deserts.put("old fashioned banana split", new Meal("Old Fashioned Banana Split", 6.99, null));
                 menu.put("desserts", deserts);
 
-                drinks = new TreeMap<String, Meal>();
+                drinks = new TreeMap<>();
                 drinks.put("orange juice", new Meal("Orange Juice", 1.20, null));
                 drinks.put("tomato juice", new Meal("Tomato Juice", 1.20, null));
                 drinks.put("apple juice", new Meal("Apple Juice", 1.20, null));
@@ -70,7 +70,7 @@ public class Menu {
                 drinks.put("tonic water", new Meal("Tonic Water", 0.0, null));
                 menu.put("drinks", drinks);
 
-                beers = new TreeMap<String, Meal>();
+                beers = new TreeMap<>();
                 beers.put("budweiser", new Meal("Budweiser", 5.50, null));
                 beers.put("bud light", new Meal("Bud Light", 5.50, null));
                 beers.put("miller light", new Meal("Miller Light", 5.50, null));
@@ -134,7 +134,7 @@ public class Menu {
                 drinks.put("tonic water", new Meal("Tonic Water", 0.0, null));
                 menu.put("drinks", drinks);
 
-                beers = new TreeMap<String, Meal>();
+                beers = new TreeMap<>();
                 beers.put("budweiser", new Meal("Budweiser", 5.50, null));
                 beers.put("bud light", new Meal("Bud Light", 5.50, null));
                 beers.put("miller light", new Meal("Miller Light", 5.50, null));
