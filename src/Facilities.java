@@ -6,12 +6,12 @@ public class Facilities {
     Facilities(){
         facilities.put("Casino", "0 Minutes");
         facilities.put("Cloud 9 Spa", "0 Minutes");
-        facilities.put("Carnival Spa", "0 Minutes");
+        facilities.put("Carnival Spa", "5 Minutes");
         facilities.put("Cherry On Top", "0 Minutes");
         facilities.put("Carnival Players Club", "0 Minutes");
-        facilities.put("Havana Bar", "0 Minutes");
+        facilities.put("Havana Bar", "15 Minutes");
         facilities.put("Guy's Pig and Anchor", "0 Minutes");
-        facilities.put("Red Frog Pub and Brewery", "0 Minutes");
+        facilities.put("Red Frog Pub and Brewery", "10 Minutes");
         facilities.put("Alchemy Bar", "0 Minutes");
     }
 
