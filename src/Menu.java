@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.TreeMap;
 
 public class Menu {
@@ -39,11 +38,11 @@ public class Menu {
                 deserts.put("assorted cookies", new Meal("Assorted Cookies", 0.0, null));
                 deserts.put("chocolate cake", new Meal("Chocolate Cake", 0.0, null));
                 deserts.put("old fashioned banana split", new Meal("Old Fashioned Banana Split", 6.99, null));
-                menu.put("deserts", deserts);
+                menu.put("desserts", deserts);
 
                 TreeMap<String, Meal> drinks = new TreeMap<String, Meal>();
 
-                menu.put("deserts", deserts);
+                menu.put("desserts", deserts);
 
                 TreeMap<String, Meal> beers = new TreeMap<String, Meal>();
 
