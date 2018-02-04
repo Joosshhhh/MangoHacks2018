@@ -6,23 +6,16 @@ public class Menu {
 
     public Menu(int time)
     {
-        TreeMap<String, Meal> salads;
-        TreeMap<String, Meal> meals;
-        TreeMap<String, Meal> sides;
-        TreeMap<String, Meal> drinks;
-        TreeMap<String, Meal> beers;
-        TreeMap<String, Meal> deserts;
-
         switch (time)
         {
             // daytime menu
             case 1:
-                salads = new TreeMap<>();
+                TreeMap<String, Meal> salads = new TreeMap<String, Meal>();
                 salads.put("garden salad", new Meal("Garden Salad", 0.0, new String[]{"Choice of Ranch, 1,000 Island, Balsamic Vinaigrette, Blue Cheese", "Fat Free Honey Mustard Dressing"}));
                 salads.put("caesar salad", new Meal("Caesar Salad", 0.0, new String[]{"House Made Dressing and Shaved Parmesan Cheese"}));
                 menu.put("salads", salads);
 
-                meals = new TreeMap<>();
+                TreeMap<String, Meal> meals = new TreeMap<String, Meal>();
                 meals.put("tuna salad", new Meal("Tuna Salad", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
                 meals.put("roast turkey", new Meal("Roast Turkey", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
                 meals.put("ham and cheese", new Meal("Ham and Cheese", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
@@ -38,19 +31,17 @@ public class Menu {
                 meals.put("pan pizza", new Meal("Pan Pizza", 12.99, null));
                 menu.put("meals", meals);
 
-                sides = new TreeMap<>();
-
-                menu.put("sides", sides);
+                TreeMap<String, Meal> sides = new TreeMap<String, Meal>();
 
 
-                deserts = new TreeMap<>();
-                deserts.put("new york cheesecake", new Meal("New York Cheesecake", 0.0, null));
-                deserts.put("assorted cookies", new Meal("Assorted Cookies", 0.0, null));
-                deserts.put("chocolate cake", new Meal("Chocolate Cake", 0.0, null));
-                deserts.put("old fashioned banana split", new Meal("Old Fashioned Banana Split", 6.99, null));
-                menu.put("deserts", deserts);
+                TreeMap<String, Meal> desserts = new TreeMap<String, Meal>();
+                desserts.put("new york cheesecake", new Meal("New York Cheesecake", 0.0, null));
+                desserts.put("assorted cookies", new Meal("Assorted Cookies", 0.0, null));
+                desserts.put("chocolate cake", new Meal("Chocolate Cake", 0.0, null));
+                desserts.put("old fashioned banana split", new Meal("Old Fashioned Banana Split", 6.99, null));
+                menu.put("deserts", desserts);
 
-                drinks = new TreeMap<>();
+                TreeMap<String, Meal> drinks = new TreeMap<String, Meal>();
                 drinks.put("orange juice", new Meal("Orange Juice", 0.0, null));
                 drinks.put("tomato juice", new Meal("Tomato Juice", 0.0, null));
                 drinks.put("apple juice", new Meal("Apple Juice", 0.0, null));
@@ -69,25 +60,16 @@ public class Menu {
                 drinks.put("ginger ale", new Meal("Ginger Ale", 0.0, null));
                 drinks.put("root beer", new Meal("Root Beer", 0.0, null));
                 drinks.put("tonic water", new Meal("Tonic Water", 0.0, null));
-                menu.put("drinks", drinks);
 
-                beers = new TreeMap<>();
+
+                TreeMap<String, Meal> beers = new TreeMap<String, Meal>();
 
                 menu.put("beers", beers);
+
                 break;
 
             case 2:
-                salads = new TreeMap<>();
-                salads.put("greek salad", new Meal("Greek Salad", 0.0, null));
-                salads.put("chicken caesar salad", new Meal("Chicken Caesar Salad", 0.0, null));
-                menu.put("salads", salads);
-
-                meals = new TreeMap<>();
-                meals.put("roast turkey wrap", new Meal("Roast Turkey Wrap", 0.0, null));
-
-                menu.put("meals", meals);
-
-
+                
         }
     }
 }
