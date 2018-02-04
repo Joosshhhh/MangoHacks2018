@@ -39,7 +39,8 @@ public class Menu {
                 menu.put("meals", meals);
 
                 sides = new TreeMap<>();
-
+                sides.put("fries", new Meal("Fries", 0.0, null));
+                sides.put("sweet potato fries", new Meal("Sweet Potato Fries", 0.0, null));
                 menu.put("sides", sides);
 
 
@@ -84,7 +85,6 @@ public class Menu {
 
                 meals = new TreeMap<>();
                 meals.put("roast turkey wrap", new Meal("Roast Turkey Wrap", 0.0, null));
-
                 menu.put("meals", meals);
 
 
