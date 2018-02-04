@@ -11,7 +11,7 @@ public class Menu {
         TreeMap<String, Meal> sides;
         TreeMap<String, Meal> drinks;
         TreeMap<String, Meal> beers;
-        TreeMap<String, Meal> deserts;
+        TreeMap<String, Meal> desserts;
 
         switch (time)
         {
@@ -38,21 +38,19 @@ public class Menu {
                 meals.put("pan pizza", new Meal("Pan Pizza", 12.99, null));
                 menu.put("meals", meals);
 
-                TreeMap<String, Meal> sides = new TreeMap<String, Meal>();
-
                 sides = new TreeMap<>();
                 sides.put("fries", new Meal("Fries", 0.0, null));
                 sides.put("sweet potato fries", new Meal("Sweet Potato Fries", 0.0, null));
                 menu.put("sides", sides);
 
-                TreeMap<String, Meal> desserts = new TreeMap<String, Meal>();
+                desserts = new TreeMap<String, Meal>();
                 desserts.put("new york cheesecake", new Meal("New York Cheesecake", 0.0, null));
                 desserts.put("assorted cookies", new Meal("Assorted Cookies", 0.0, null));
                 desserts.put("chocolate cake", new Meal("Chocolate Cake", 0.0, null));
                 desserts.put("old fashioned banana split", new Meal("Old Fashioned Banana Split", 6.99, null));
                 menu.put("desserts", desserts);
 
-                TreeMap<String, Meal> drinks = new TreeMap<String, Meal>();
+                drinks = new TreeMap<String, Meal>();
                 drinks.put("orange juice", new Meal("Orange Juice", 1.20, null));
                 drinks.put("tomato juice", new Meal("Tomato Juice", 1.20, null));
                 drinks.put("apple juice", new Meal("Apple Juice", 1.20, null));
@@ -73,7 +71,7 @@ public class Menu {
                 drinks.put("tonic water", new Meal("Tonic Water", 0.0, null));
                 menu.put("drinks", drinks);
 
-                TreeMap<String, Meal> beers = new TreeMap<String, Meal>();
+                beers = new TreeMap<String, Meal>();
                 beers.put("budweiser", new Meal("Budweiser", 5.50, null));
                 beers.put("bud light", new Meal("Bud Light", 5.50, null));
                 beers.put("miller light", new Meal("Miller Light", 5.50, null));
