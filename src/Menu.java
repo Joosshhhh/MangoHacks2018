@@ -55,7 +55,7 @@ public class Menu {
                 drinks.put("apple juice", new Meal("Apple Juice", 1.20, null));
                 drinks.put("grapefruit juice", new Meal("Grapefruit Juice", 1.20, null));
                 drinks.put("coffee", new Meal("Coffee", 3.50, null));
-                drinks.put("decaf", new Meal("Decafinated Coffee", 3.50, null));
+                drinks.put("decaf", new Meal("Decaffeinated Coffee", 3.50, null));
                 drinks.put("hot tea", new Meal("Hot Tea", 1.20, null));
                 drinks.put("iced tea", new Meal("Iced Tea", 1.20, null));
                 drinks.put("hot chocolate", new Meal("Hot Chocolate", 1.20, null));
@@ -119,7 +119,7 @@ public class Menu {
                 drinks.put("apple juice", new Meal("Apple Juice", 0.0, null));
                 drinks.put("grapefruit juice", new Meal("Grapefruit Juice", 0.0, null));
                 drinks.put("coffee", new Meal("Coffee", 0.0, null));
-                drinks.put("decaf", new Meal("Decafinated Coffee", 0.0, null));
+                drinks.put("decaf", new Meal("Decaffeinated Coffee", 0.0, null));
                 drinks.put("hot tea", new Meal("Hot Tea", 0.0, null));
                 drinks.put("iced tea", new Meal("Iced Tea", 0.0, null));
                 drinks.put("hot chocolate", new Meal("Hot Chocolate", 0.0, null));
