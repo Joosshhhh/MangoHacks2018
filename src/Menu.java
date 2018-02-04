@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.TreeMap;
 
 public class Menu {
-    TreeMap<String, TreeMap<String, Meal>> menu = new TreeMap<String, TreeMap<String, Meal>>
+    TreeMap<String, TreeMap<String, Meal>> menu = new TreeMap<>();
 
     public Menu(int time)
     {
@@ -32,7 +32,7 @@ public class Menu {
                 menu.put("meals", meals);
 
                 TreeMap<String, Meal> sides = new TreeMap<String, Meal>();
-                
+
 
                 TreeMap<String, Meal> deserts = new TreeMap<String, Meal>();
                 deserts.put("new york cheesecake", new Meal("New York Cheesecake", 0.0, null));

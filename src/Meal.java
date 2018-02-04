@@ -11,4 +11,12 @@ public class Meal {
         price = p;
         sides = s;
     }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String[] getSides() {
+        return sides;
+    }
 }
