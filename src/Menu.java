@@ -39,32 +39,40 @@ public class Menu {
                 desserts.put("assorted cookies", new Meal("Assorted Cookies", 0.0, null));
                 desserts.put("chocolate cake", new Meal("Chocolate Cake", 0.0, null));
                 desserts.put("old fashioned banana split", new Meal("Old Fashioned Banana Split", 6.99, null));
-                menu.put("deserts", desserts);
+                menu.put("desserts", desserts);
 
                 TreeMap<String, Meal> drinks = new TreeMap<String, Meal>();
-                drinks.put("orange juice", new Meal("Orange Juice", 0.0, null));
-                drinks.put("tomato juice", new Meal("Tomato Juice", 0.0, null));
-                drinks.put("apple juice", new Meal("Apple Juice", 0.0, null));
-                drinks.put("grapefruit juice", new Meal("Grapefruit Juice", 0.0, null));
-                drinks.put("coffee", new Meal("Coffee", 0.0, null));
-                drinks.put("decaf", new Meal("Decafinated Coffee", 0.0, null));
-                drinks.put("hot tea", new Meal("Hot Tea", 0.0, null));
-                drinks.put("iced tea", new Meal("Iced Tea", 0.0, null));
-                drinks.put("hot chocolate", new Meal("Hot Chocolate", 0.0, null));
-                drinks.put("chocolate milk", new Meal("Chocolate Milk", 0.0, null));
-                drinks.put("milk", new Meal("Milk", 0.0, null));
-                drinks.put("skim milk", new Meal("Skim Milk", 0.0, null));
+                drinks.put("orange juice", new Meal("Orange Juice", 1.20, null));
+                drinks.put("tomato juice", new Meal("Tomato Juice", 1.20, null));
+                drinks.put("apple juice", new Meal("Apple Juice", 1.20, null));
+                drinks.put("grapefruit juice", new Meal("Grapefruit Juice", 1.20, null));
+                drinks.put("coffee", new Meal("Coffee", 3.50, null));
+                drinks.put("decaf", new Meal("Decafinated Coffee", 3.50, null));
+                drinks.put("hot tea", new Meal("Hot Tea", 1.20, null));
+                drinks.put("iced tea", new Meal("Iced Tea", 1.20, null));
+                drinks.put("hot chocolate", new Meal("Hot Chocolate", 1.20, null));
+                drinks.put("chocolate milk", new Meal("Chocolate Milk", 1.20, null));
+                drinks.put("milk", new Meal("Milk", 1.00, null));
+                drinks.put("skim milk", new Meal("Skim Milk", 1.20, null));
                 drinks.put("coke", new Meal("Coke", 0.0, null));
-                drinks.put("diet coke", new Meal("Diet Coke", 0.0, null));
-                drinks.put("club soda", new Meal("Club Soda", 0.0, null));
-                drinks.put("ginger ale", new Meal("Ginger Ale", 0.0, null));
-                drinks.put("root beer", new Meal("Root Beer", 0.0, null));
-                drinks.put("tonic water", new Meal("Tonic Water", 0.0, null));
-
+                drinks.put("diet coke", new Meal("Diet Coke", 2.00, null));
+                drinks.put("club soda", new Meal("Club Soda", 2.00, null));
+                drinks.put("ginger ale", new Meal("Ginger Ale", 2.00, null));
+                drinks.put("root beer", new Meal("Root Beer", 2.00, null));
+                drinks.put("tonic water", new Meal("Tonic Water", 2.00, null));
+                menu.put("drinks", drinks);
 
                 TreeMap<String, Meal> beers = new TreeMap<String, Meal>();
-
+                beers.put("budweiser", new Meal("Budweiser", 5.50, null));
+                beers.put("bud light", new Meal("Bud Light", 5.50, null));
+                beers.put("miller light", new Meal("Miller Light", 5.50, null));
+                beers.put("coors light", new Meal("Coors Light", 5.50, null));
+                beers.put("samuel adams", new Meal("Samuel Adams", 5.50, null));
+                beers.put("heineken", new Meal("Heineken", 5.50, null));
+                beers.put("corona", new Meal("Corona", 5.50, null));
+                beers.put("pilsner urquell", new Meal("Pilsner Urquell", 5.50, null));
                 menu.put("beers", beers);
+
 
                 break;
 
