@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.TreeMap;
 
 public class Menu {
@@ -38,11 +39,29 @@ public class Menu {
                 deserts.put("assorted cookies", new Meal("Assorted Cookies", 0.0, null));
                 deserts.put("chocolate cake", new Meal("Chocolate Cake", 0.0, null));
                 deserts.put("old fashioned banana split", new Meal("Old Fashioned Banana Split", 6.99, null));
-                menu.put("desserts", deserts);
+                menu.put("deserts", deserts);
 
                 TreeMap<String, Meal> drinks = new TreeMap<String, Meal>();
+                drinks.put("orange juice", new Meal("Orange Juice", 0.0, null));
+                drinks.put("tomato juice", new Meal("Tomato Juice", 0.0, null));
+                drinks.put("apple juice", new Meal("Apple Juice", 0.0, null));
+                drinks.put("grapefruit juice", new Meal("Grapefruit Juice", 0.0, null));
+                drinks.put("coffee", new Meal("Coffee", 0.0, null));
+                drinks.put("decaf", new Meal("Decafinated Coffee", 0.0, null));
+                drinks.put("hot tea", new Meal("Hot Tea", 0.0, null));
+                drinks.put("iced tea", new Meal("Iced Tea", 0.0, null));
+                drinks.put("hot chocolate", new Meal("Hot Chocolate", 0.0, null));
+                drinks.put("chocolate milk", new Meal("Chocolate Milk", 0.0, null));
+                drinks.put("milk", new Meal("Milk", 0.0, null));
+                drinks.put("skim milk", new Meal("Skim Milk", 0.0, null));
+                drinks.put("coke", new Meal("Coke", 0.0, null));
+                drinks.put("diet coke", new Meal("Diet Coke", 0.0, null));
+                drinks.put("club soda", new Meal("Club Soda", 0.0, null));
+                drinks.put("ginger ale", new Meal("Ginger Ale", 0.0, null));
+                drinks.put("root beer", new Meal("Root Beer", 0.0, null));
+                drinks.put("tonic water", new Meal("Tonic Water", 0.0, null));
 
-                menu.put("desserts", deserts);
+                menu.put("deserts", deserts);
 
                 TreeMap<String, Meal> beers = new TreeMap<String, Meal>();
 
