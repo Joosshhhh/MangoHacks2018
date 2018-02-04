@@ -6,16 +6,23 @@ public class Menu {
 
     public Menu(int time)
     {
+        TreeMap<String, Meal> salads;
+        TreeMap<String, Meal> meals;
+        TreeMap<String, Meal> sides;
+        TreeMap<String, Meal> drinks;
+        TreeMap<String, Meal> beers;
+        TreeMap<String, Meal> deserts;
+
         switch (time)
         {
             // daytime menu
             case 1:
-                TreeMap<String, Meal> salads = new TreeMap<String, Meal>();
+                salads = new TreeMap<>();
                 salads.put("garden salad", new Meal("Garden Salad", 0.0, new String[]{"Choice of Ranch, 1,000 Island, Balsamic Vinaigrette, Blue Cheese", "Fat Free Honey Mustard Dressing"}));
                 salads.put("caesar salad", new Meal("Caesar Salad", 0.0, new String[]{"House Made Dressing and Shaved Parmesan Cheese"}));
                 menu.put("salads", salads);
 
-                TreeMap<String, Meal> meals = new TreeMap<String, Meal>();
+                meals = new TreeMap<>();
                 meals.put("tuna salad", new Meal("Tuna Salad", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
                 meals.put("roast turkey", new Meal("Roast Turkey", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
                 meals.put("ham and cheese", new Meal("Ham and Cheese", 0.0, new String[]{"Your choice of White, Whole Wheat, Rye", "gluten free Bread"}));
@@ -33,6 +40,10 @@ public class Menu {
 
                 TreeMap<String, Meal> sides = new TreeMap<String, Meal>();
 
+                sides = new TreeMap<>();
+                sides.put("fries", new Meal("Fries", 0.0, null));
+                sides.put("sweet potato fries", new Meal("Sweet Potato Fries", 0.0, null));
+                menu.put("sides", sides);
 
                 TreeMap<String, Meal> desserts = new TreeMap<String, Meal>();
                 desserts.put("new york cheesecake", new Meal("New York Cheesecake", 0.0, null));
@@ -55,11 +66,11 @@ public class Menu {
                 drinks.put("milk", new Meal("Milk", 1.00, null));
                 drinks.put("skim milk", new Meal("Skim Milk", 1.20, null));
                 drinks.put("coke", new Meal("Coke", 0.0, null));
-                drinks.put("diet coke", new Meal("Diet Coke", 2.00, null));
-                drinks.put("club soda", new Meal("Club Soda", 2.00, null));
-                drinks.put("ginger ale", new Meal("Ginger Ale", 2.00, null));
-                drinks.put("root beer", new Meal("Root Beer", 2.00, null));
-                drinks.put("tonic water", new Meal("Tonic Water", 2.00, null));
+                drinks.put("diet coke", new Meal("Diet Coke", 0.0, null));
+                drinks.put("club soda", new Meal("Club Soda", 0.0, null));
+                drinks.put("ginger ale", new Meal("Ginger Ale", 0.0, null));
+                drinks.put("root beer", new Meal("Root Beer", 0.0, null));
+                drinks.put("tonic water", new Meal("Tonic Water", 0.0, null));
                 menu.put("drinks", drinks);
 
                 TreeMap<String, Meal> beers = new TreeMap<String, Meal>();
@@ -73,11 +84,28 @@ public class Menu {
                 beers.put("pilsner urquell", new Meal("Pilsner Urquell", 5.50, null));
                 menu.put("beers", beers);
 
-
                 break;
 
             case 2:
-                
+                salads = new TreeMap<>();
+                salads.put("greek salad", new Meal("Greek Salad", 8.99, null));
+                salads.put("chicken caesar salad", new Meal("Chicken Caesar Salad", 8.99, null));
+                menu.put("salads", salads);
+
+                meals = new TreeMap<>();
+                meals.put("totally awesome wings", new Meal("Totalle Awesome Wings", 12.99, null));
+                meals.put("chicken tenders", new Meal("Chicken Tenders", 12.99, null));
+                meals.put("spicy fried firecracker shrimp", new Meal("Spicy Fried Firecracker Shrimp", 12.99, null));
+                meals.put("portabella and veggie bun", new Meal("Portabella and Veggie Bun", 12.99, null));
+                meals.put("killer chicken quesadilla", new Meal("Killer Chicken Quesadilla", 12.99, null));
+                meals.put("grilled cheese, bacon and tomato sandwich", new Meal("Grilled Cheese, Bacon and Tomato Sandwich", 12.99, null));
+                meals.put("authentic philly cheesesteak", new Meal("Authentic Philly Cheesesteak", 12.99, null));
+                meals.put("roast turkey wrap", new Meal("Roast Turkey Wrap", 12.99, null));
+                meals.put("pan pizza", new Meal("Pan Pizza", 12.99, null));
+                meals.put("omelette and french fries", new Meal("Omelette and French Fries", 12.99, null));
+                menu.put("meals", meals);
+
+                break;
         }
     }
 }
