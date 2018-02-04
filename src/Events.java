@@ -1,4 +1,3 @@
-import sun.security.provider.Sun;
 
 import java.util.TreeMap;
 
@@ -11,7 +10,7 @@ public class Events {
     private static TreeMap<String, String> FriEvents = new TreeMap<String, String>();
     private static TreeMap<String, String> SatEvents = new TreeMap<String, String>();
 
-    public Events(String day){
+    public Events(String day) {
         SunEvents.put("Green Eggs and Ham Breakfast", "9 AM");
         SunEvents.put("Trivia", "4 PM");
         SunEvents.put("DJ Irie", "8 PM");
@@ -32,14 +31,14 @@ public class Events {
         SatEvents.put("Lip Sync Battle", "8 PM");
     }
 
-    public void setEvent(TreeMap map, String name, String time){
+    public void setEvent(TreeMap map, String name, String time) {
         map.put(name, time);
     }
 
-    public String getEvent(TreeMap map, String name){
-        if(!map.containsKey(name))
+    public String getEvent(TreeMap map, String name) {
+        if (!map.containsKey(name))
             return "Event does not exist";
-        else{
+        else {
             return map.get(name).toString();
         }
     }

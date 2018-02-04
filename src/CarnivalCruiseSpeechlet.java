@@ -44,7 +44,7 @@ public class CarnivalCruiseSpeechlet implements SpeechletV2 {
         if ("Order".equals(intentName)) {
             return orderMeal(intent, session);
 
-        } else if ("Menu".equals(intentName)) {
+        } else if ("Alexa.Menu".equals(intentName)) {
             String output = "Okay, which category would you like, " +
                     "salads <break time=\\\"0.2s\\\" />" +
                     "meals <break time=\\\"0.2s\\\" />" +

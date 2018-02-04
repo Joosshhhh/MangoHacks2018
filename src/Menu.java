@@ -1,10 +1,11 @@
+
+
 import java.util.TreeMap;
 
 public class Menu {
     TreeMap<String, TreeMap<String, Meal>> menu = new TreeMap<>();
 
-    public Menu(int time)
-    {
+    public Menu(int time) {
         TreeMap<String, Meal> salads;
         TreeMap<String, Meal> meals;
         TreeMap<String, Meal> sides;
@@ -12,8 +13,7 @@ public class Menu {
         TreeMap<String, Meal> beers;
         TreeMap<String, Meal> deserts;
 
-        switch (time)
-        {
+        switch (time) {
             // daytime menu
             case 1:
                 salads = new TreeMap<>();
