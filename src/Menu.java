@@ -27,8 +27,8 @@ public class Menu {
                 meals.put("totally awesome wings", new Meal("Totally Awesome Wings", 12.99, null));
                 meals.put("spicy fried firecracker shrimp", new Meal("Spicy Fried Firecracker Shrimp", 12.99, null));
                 meals.put("killer chicken quesadilla", new Meal("Killer Chicken Quesadilla", 12.99, null));
-                meals.put("chicken tenders", new Meal("Chicken Tenders", 12.99, null));
-                meals.put("chicken tenders", new Meal("Chicken Tenders", 12.99, null));
+                meals.put("authentic philly cheesesteak", new Meal("Authentic Philly Cheesesteak", 12.99, null));
+                meals.put("pan pizza", new Meal("Pan Pizza", 12.99, null));
                 menu.put("meals", meals);
 
                 TreeMap<String, Meal> sides = new TreeMap<String, Meal>();
@@ -42,9 +42,17 @@ public class Menu {
                 menu.put("deserts", deserts);
 
                 TreeMap<String, Meal> drinks = new TreeMap<String, Meal>();
-                
+
+                menu.put("deserts", deserts);
+
+                TreeMap<String, Meal> beers = new TreeMap<String, Meal>();
+
+                menu.put("beers", beers);
 
                 break;
+
+            case 2:
+                
         }
     }
 }
